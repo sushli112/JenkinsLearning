@@ -13,6 +13,8 @@ public class DevelopmentApplication {
 		Logger logger = LoggerFactory.getLogger(DevelopmentApplication.class);
 		logger.debug("Inside DevelopmentApplication");
 		SpringApplication.run(DevelopmentApplication.class, args);
+		logger.debug("after sprin boot run appl DevelopmentApplication****************************************");
+
 
 
 	}
